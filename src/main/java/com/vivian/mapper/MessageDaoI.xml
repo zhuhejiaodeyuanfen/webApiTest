@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vivian.dao.MessageDaoI">
+
+
+    <sql id="user_columns">
+         userId,userName,passWord,userPhone,userEmail,userSex,userIcon
+    </sql>
+
+    <select id="findUserByUserName"
+            useCache="false"
+            parameterType="String" resultType="com.vivian.sql.model.MyUser">
+        SELECT
+        <include refid="user_columns"/>
+        FROM myUser
+        WHERE
+        userName=#{userName}
+    </select>
+
+
+    <update id="updateUser" parameterType="com.vivian.sql.model.MyUser">
+
+
+        update myUser set
+
+        userIcon = #{userIcon}
+        where userId = #{userId}
+    </update>
+
+    <select id="findUserById"
+            useCache="false"
+            parameterType="int" resultType="com.vivian.sql.model.MyUser">
+        SELECT
+        <include refid="user_columns"/>
+        FROM myUser
+        WHERE
+        userId=#{userId}
+    </select>
+
+
+    <!-- 对应userDao中的insertUser方法，  -->
+    <insert id="insertMessage" parameterType="com.vivian.sql.model.MsgModel">
+
+
+        <!-- mysql插入数据后，获取id -->
+        <selectKey keyProperty="msgId" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID() as id
+        </selectKey>
+
+        insert into t_msg(msgFromId, msgToId, msgType, isUserReply,msgContent,msgTime)
+        values( #{msgFromId}, #{msgToId}, #{msgType},
+        #{isUserReply},#{msgContent},#{msgTime})
+    </insert>
+
+    <insert id="insertOffLineMessage" parameterType="com.vivian.sql.model.MsgModel">
+
+
+        <!-- mysql插入数据后，获取id -->
+        <selectKey keyProperty="msgId" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID() as id
+        </selectKey>
+
+        insert into t_offline_msg(msgFromId, msgToId, msgType, isUserReply,msgContent,msgTime)
+        values( #{msgFromId}, #{msgToId}, #{msgType},
+        #{isUserReply},#{msgContent},#{msgTime})
+    </insert>
+
+
+    <select id="getUserMsg"
+            useCache="false"
+            parameterType="int" resultType="com.vivian.sql.model.MsgListBean">
+        SELECT *
+        FROM t_msg_count
+           WHERE
+        msgToId=#{msgToId}
+
+    </select>
+</mapper>

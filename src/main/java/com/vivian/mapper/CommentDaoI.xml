@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vivian.dao.CommentDaoI">
+
+
+    <sql id="live_columns">
+         liveBoardTitle,liveBoardContent,creatTime
+    </sql>
+
+    <select id="getCommentList"
+            useCache="false"
+            parameterType="int" resultType="com.vivian.sql.model.CommentModelOri">
+        SELECT *
+        FROM CommentModel
+
+           WHERE
+        commentPostId=#{0}  limit #{1} , #{2}
+
+    </select>
+
+
+    <select id="getAllLiveList"
+            useCache="false"
+            parameterType="int" resultType="com.vivian.sql.model.LivePhotoDetailModel">
+        SELECT *
+        FROM LivePhotoDetailModel
+
+          WHERE
+        postSonId=#{postSonId}
+
+    </select>
+
+    <!-- 对应userDao中的insertUser方法，  -->
+    <insert id="insertLive" parameterType="com.vivian.sql.model.LivePhotoDetailModel">
+
+
+        <!-- mysql插入数据后，获取id -->
+        <selectKey keyProperty="livePostId" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID() as id
+        </selectKey>
+
+        insert into LivePhotoDetailModel(
+        postTitle, postBackColor,
+        postParentId, postSonId, postAdmin,
+        postCreateTime, postContent)
+
+        values( #{postTitle}, #{postBackColor},
+        #{postParentId},#{postSonId},#{postAdmin},#{postCreateTime},#{postContent})
+    </insert>
+
+
+    <!-- 对应userDao中的insertUser方法，  -->
+    <insert id="insertHomeComment" parameterType="com.vivian.sql.model.CommentModelOri">
+
+
+        <!-- mysql插入数据后，获取id -->
+        <selectKey keyProperty="commentId" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID() as id
+        </selectKey>
+
+        insert into CommentModel(
+        commentId, commentUserId,
+        commentContent, commentPostId,commentTime)
+
+        values( #{commentId}, #{commentUserId},
+        #{commentContent},#{commentPostId},#{commentTime})
+    </insert>
+</mapper>

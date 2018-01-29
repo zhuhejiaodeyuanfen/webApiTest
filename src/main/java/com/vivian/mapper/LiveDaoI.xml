@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vivian.dao.LiveDaoI">
+
+
+    <sql id="live_columns">
+         liveBoardTitle,liveBoardContent,creatTime
+    </sql>
+
+    <select id="getAllLiveBoard"
+            useCache="false"
+            parameterType="String" resultType="com.vivian.sql.model.LiveBoardModel">
+        SELECT *
+        FROM LiveBoardModel
+
+    </select>
+
+
+    <select id="getAllLiveList"
+            useCache="false"
+            parameterType="int" resultType="com.vivian.sql.model.LivePhotoDetailModel">
+        SELECT *
+        FROM LivePhotoDetailModel
+
+          WHERE
+        postParentId=#{postParentId}
+
+    </select>
+
+    <!-- 对应userDao中的insertUser方法，  -->
+    <insert id="insertLive" parameterType="com.vivian.sql.model.LivePhotoDetailModel">
+
+
+        <!-- mysql插入数据后，获取id -->
+        <selectKey keyProperty="livePostId" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID() as id
+        </selectKey>
+
+        insert into LivePhotoDetailModel(
+        postTitle, postBackColor,
+        postParentId, postSonId, postAdmin,
+        postCreateTime, postContent)
+
+        values( #{postTitle}, #{postBackColor},
+        #{postParentId},#{postSonId},#{postAdmin},#{postCreateTime},#{postContent})
+    </insert>
+
+
+    <!-- 对应userDao中的insertUser方法，  -->
+    <insert id="insertLiveBoard" parameterType="com.vivian.sql.model.LiveBoardModel">
+
+
+        <!-- mysql插入数据后，获取id -->
+        <selectKey keyProperty="liveBoardModelId" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID() as id
+        </selectKey>
+
+        insert into LiveBoardModel(
+        liveBoardTitle, liveBoardContent,
+        createTime, liveIcon)
+
+        values( #{liveBoardTitle}, #{liveBoardContent},
+        #{createTime},#{liveIcon})
+    </insert>
+
+
+    <update id="updateLiveTopicBoard" parameterType="com.vivian.sql.model.LiveBoardModel">
+
+
+        update LiveBoardModel set
+
+        inCount = #{inCount}
+        where liveBoardModelId = #{liveBoardModelId}
+    </update>
+
+
+    <select id="getALiveBoard"
+            useCache="false"
+            parameterType="int" resultType="com.vivian.sql.model.LiveBoardModel">
+        SELECT *
+        FROM LiveBoardModel
+
+        WHERE
+        liveBoardModelId=#{liveBoardModelId}
+
+    </select>
+</mapper>

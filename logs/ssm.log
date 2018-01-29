@@ -1,0 +1,516 @@
+[DEBUG] [2017-12-13 15:33:16][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:18:24][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:20:37][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:23:50][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:28:37][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:29:43][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:29:47][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:32:08][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:37:27][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:38:20][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:55:00][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:55:41][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 18:56:51][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 19:18:33][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 19:18:57][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 19:31:09][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 19:32:12][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 19:46:38][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 19:46:38][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 19:46:38][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-13 19:46:59][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.impl.conn.BasicClientConnectionManager]Get connection for route {}->http://localhost:8080
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.impl.conn.DefaultClientConnectionOperator]Connecting to localhost:8080
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.client.protocol.RequestAddCookies]CookieSpec selected: default
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.client.protocol.RequestAuthCache]Auth cache not set in the context
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.client.protocol.RequestTargetAuthentication]Target auth state: UNCHALLENGED
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.client.protocol.RequestProxyAuthentication]Proxy auth state: UNCHALLENGED
+ [DEBUG] [2017-12-14 10:25:55][test.com.vivian.test.SSLClient]Attempt 1 to execute request
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.impl.conn.DefaultClientConnection]Sending request: POST /wq/user/register HTTP/1.1
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "POST /wq/user/register HTTP/1.1[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "Content-Type: application/json[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "Content-Length: 145[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "Content-Type: application/json; charset=[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "Host: localhost:8080[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "Connection: Keep-Alive[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_111)[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]>> POST /wq/user/register HTTP/1.1
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]>> Content-Type: application/json
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]>> Content-Length: 145
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]>> Content-Type: application/json; charset=
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]>> Host: localhost:8080
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]>> Connection: Keep-Alive
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]>> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_111)
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "{[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "[0x9]"passWord":"123456",[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "[0x9]"userEmail":"522029704@qq.com",[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "[0x9]"userId":0,[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "[0x9]"userName":"[0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe5][0xa7][0x93][0xe5][0x90][0x8d]1",[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "[0x9]"userPhone":"15000619639",[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "[0x9]"userSex":"[0xe7][0x94][0xb7]"[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] >> "}"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "HTTP/1.1 500 [\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "Content-Type: text/html;charset=utf-8[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "Content-Language: en[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "Transfer-Encoding: chunked[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "Date: Thu, 14 Dec 2017 02:25:55 GMT[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "Connection: close[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.impl.conn.DefaultClientConnection]Receiving response: HTTP/1.1 500 
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]<< HTTP/1.1 500 
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]<< Content-Type: text/html;charset=utf-8
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]<< Content-Language: en
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]<< Transfer-Encoding: chunked
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]<< Date: Thu, 14 Dec 2017 02:25:55 GMT
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.headers]<< Connection: close
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "2000[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "<!doctype html><html lang="en"><head><title>HTTP Status 500 [0xe2][0x80][0x93] Internal Server Error</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 [0xe2][0x80][0x93] Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: </p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: [\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "### Error updating database.  Cause: java.lang.IllegalArgumentException: invalid comparison: java.sql.Timestamp and java.lang.String[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "### Cause: java.lang.IllegalArgumentException: invalid comparison: java.sql.Timestamp and java.lang.String[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]javax.servlet.http.HttpServlet.service(HttpServlet.java:661)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]javax.servlet.http.HttpServlet.service(HttpServlet.java:742)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "</pre><p><b>Root Cause</b></p><pre>org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: [\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "### Error updating database.  Cause: java.lang.IllegalArgumentException: invalid comparison: java.sql.Timestamp and java.lang.String[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "### Cause: java.lang.IllegalArgumentException: invalid comparison: java.sql.Timestamp and java.lang.String[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:76)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:399)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.sun.proxy.$Proxy18.insert(Unknown Source)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:253)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:52)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.sun.proxy.$Proxy19.addUser(Unknown Source)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.vivian.service.impl.UserServiceImplUserService.addUser(UserServiceImplUserService.java:23)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.vivian.controller.UserController.userRegister(UserController.java:39)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]java.lang.reflect.Method.invoke(Method.java:498)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:814)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:737)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]javax.servlet.http.HttpServlet.service(HttpServlet.java:661)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]javax.servlet.http.HttpServlet.service(HttpServlet.java:742)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "</pre><p><b>Root Cause</b></p><pre>org.apache.ibatis.exceptions.PersistenceException: [\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "### Error updating database.  Cause: java.lang.IllegalArgumentException: invalid comparison: java.sql.Timestamp and java.lang.String[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "### Cause: java.lang.IllegalArgumentException: invalid comparison: java.sql.Timestamp and java.lang.String[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:172)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:157)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]java.lang.reflect.Method.invoke(Method.java:498)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:386)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.sun.proxy.$Proxy18.insert(Unknown Source)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:253)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:52)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.sun.proxy.$Proxy19.addUser(Unknown Source)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.vivian.service.impl.UserServiceImplUserService.addUser(UserServiceImplUserService.java:23)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.vivian.controller.UserController.userRegister(UserController.java:39)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]java.lang.reflect.Method.invoke(Method.java:498)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:814)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:737)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << ".servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]javax.servlet.http.HttpServlet.service(HttpServlet.java:661)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServ"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "15a8[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "let.service(FrameworkServlet.java:846)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]javax.servlet.http.HttpServlet.service(HttpServlet.java:742)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "</pre><p><b>Root Cause</b></p><pre>java.lang.IllegalArgumentException: invalid comparison: java.sql.Timestamp and java.lang.String[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.OgnlOps.compareWithConversion(OgnlOps.java:92)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.OgnlOps.isEqual(OgnlOps.java:142)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.OgnlOps.equal(OgnlOps.java:794)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.ASTNotEq.getValueBody(ASTNotEq.java:53)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.SimpleNode.getValue(SimpleNode.java:258)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.ASTAnd.getValueBody(ASTAnd.java:61)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.SimpleNode.getValue(SimpleNode.java:258)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.Ognl.getValue(Ognl.java:494)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.ognl.Ognl.getValue(Ognl.java:458)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.scripting.xmltags.OgnlCache.getValue(OgnlCache.java:44)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.scripting.xmltags.ExpressionEvaluator.evaluateBoolean(ExpressionEvaluator.java:32)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.scripting.xmltags.IfSqlNode.apply(IfSqlNode.java:34)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.scripting.xmltags.MixedSqlNode.apply(MixedSqlNode.java:33)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.scripting.xmltags.TrimSqlNode.apply(TrimSqlNode.java:55)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.scripting.xmltags.MixedSqlNode.apply(MixedSqlNode.java:33)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.scripting.xmltags.DynamicSqlSource.getBoundSql(DynamicSqlSource.java:41)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.mapping.MappedStatement.getBoundSql(MappedStatement.java:280)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.executor.statement.BaseStatementHandler.&lt;init&gt;(BaseStatementHandler.java:64)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.executor.statement.PreparedStatementHandler.&lt;init&gt;(PreparedStatementHandler.java:39)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.executor.statement.RoutingStatementHandler.&lt;init&gt;(RoutingStatementHandler.java:45)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.session.Configuration.newStatementHandler(Configuration.java:488)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:47)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:115)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:75)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:170)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:157)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]java.lang.reflect.Method.invoke(Method.java:498)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:386)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.sun.proxy.$Proxy18.insert(Unknown Source)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:253)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:52)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.sun.proxy.$Proxy19.addUser(Unknown Source)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.vivian.service.impl.UserServiceImplUserService.addUser(UserServiceImplUserService.java:23)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]com.vivian.controller.UserController.userRegister(UserController.java:39)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]java.lang.reflect.Method.invoke(Method.java:498)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:814)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:737)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]javax.servlet.http.HttpServlet.service(HttpServlet.java:661)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]javax.servlet.http.HttpServlet.service(HttpServlet.java:742)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[0x9]org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.23</h3></body></html>"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "0[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.wire] << "[\r][\n]"
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.impl.conn.BasicClientConnectionManager]Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@612fc6eb
+ [DEBUG] [2017-12-14 10:25:55][org.apache.http.impl.conn.DefaultClientConnection]Connection 0.0.0.0:49640<->127.0.0.1:8080 shut down
+ [DEBUG] [2017-12-14 10:25:55][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:28:10][org.apache.http.impl.conn.BasicClientConnectionManager]Get connection for route {}->http://localhost:8080
+ [DEBUG] [2017-12-14 10:28:10][org.apache.http.impl.conn.DefaultClientConnectionOperator]Connecting to localhost:8080
+ [DEBUG] [2017-12-14 10:28:10][org.apache.http.impl.conn.DefaultClientConnectionOperator]Connect to localhost:8080 timed out. Connection will be retried using another IP address
+ [DEBUG] [2017-12-14 10:28:10][org.apache.http.impl.conn.DefaultClientConnectionOperator]Connecting to localhost:8080
+ [DEBUG] [2017-12-14 10:28:10][org.apache.http.impl.conn.BasicClientConnectionManager]Get connection for route {}->http://localhost:8080
+ [DEBUG] [2017-12-14 10:28:10][org.apache.http.impl.conn.DefaultClientConnectionOperator]Connecting to localhost:8080
+ [DEBUG] [2017-12-14 10:28:10][org.apache.http.impl.conn.DefaultClientConnectionOperator]Connect to localhost:8080 timed out. Connection will be retried using another IP address
+ [DEBUG] [2017-12-14 10:28:10][org.apache.http.impl.conn.DefaultClientConnectionOperator]Connecting to localhost:8080
+ [DEBUG] [2017-12-14 10:28:11][org.apache.http.impl.conn.DefaultClientConnection]Connection org.apache.http.impl.conn.DefaultClientConnection@2833cc44 closed
+ [DEBUG] [2017-12-14 10:28:11][org.apache.http.impl.conn.DefaultClientConnection]Connection org.apache.http.impl.conn.DefaultClientConnection@2833cc44 shut down
+ [DEBUG] [2017-12-14 10:28:11][org.apache.http.impl.conn.BasicClientConnectionManager]Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@33f88ab
+ [DEBUG] [2017-12-14 10:28:11][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:28:12][org.apache.http.impl.conn.DefaultClientConnection]Connection org.apache.http.impl.conn.DefaultClientConnection@4d41cee closed
+ [DEBUG] [2017-12-14 10:28:12][org.apache.http.impl.conn.DefaultClientConnection]Connection org.apache.http.impl.conn.DefaultClientConnection@4d41cee shut down
+ [DEBUG] [2017-12-14 10:28:12][org.apache.http.impl.conn.BasicClientConnectionManager]Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3712b94
+ [DEBUG] [2017-12-14 10:28:12][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:31:20][org.apache.http.client.protocol.RequestAddCookies]CookieSpec selected: default
+ [DEBUG] [2017-12-14 10:31:20][org.apache.http.client.protocol.RequestAuthCache]Auth cache not set in the context
+ [DEBUG] [2017-12-14 10:31:20][org.apache.http.impl.conn.PoolingHttpClientConnectionManager]Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+ [DEBUG] [2017-12-14 10:31:20][org.apache.http.impl.conn.PoolingHttpClientConnectionManager]Connection leased: [id: 0][route: {}->http://localhost:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+ [DEBUG] [2017-12-14 10:31:20][org.apache.http.impl.execchain.MainClientExec]Opening connection {}->http://localhost:8080
+ [DEBUG] [2017-12-14 10:31:20][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator]Connecting to localhost/127.0.0.1:8080
+ [DEBUG] [2017-12-14 10:31:20][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator]Connect to localhost/127.0.0.1:8080 timed out. Connection will be retried using another IP address
+ [DEBUG] [2017-12-14 10:31:20][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator]Connecting to localhost/0:0:0:0:0:0:0:1:8080
+ [DEBUG] [2017-12-14 10:31:21][org.apache.http.impl.conn.DefaultManagedHttpClientConnection]http-outgoing-0: Shutdown connection
+ [DEBUG] [2017-12-14 10:31:21][org.apache.http.impl.execchain.MainClientExec]Connection discarded
+ [DEBUG] [2017-12-14 10:31:21][org.apache.http.impl.conn.PoolingHttpClientConnectionManager]Connection released: [id: 0][route: {}->http://localhost:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.client.protocol.RequestAddCookies]CookieSpec selected: default
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.client.protocol.RequestAuthCache]Auth cache not set in the context
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.impl.conn.PoolingHttpClientConnectionManager]Connection request: [route: {}->http://192.168.10.65:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.impl.conn.PoolingHttpClientConnectionManager]Connection leased: [id: 0][route: {}->http://192.168.10.65:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.impl.execchain.MainClientExec]Opening connection {}->http://192.168.10.65:80
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator]Connecting to /192.168.10.65:80
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator]Connection established 192.168.10.65:49954<->192.168.10.65:80
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.impl.execchain.MainClientExec]Executing request POST /wq/user/register HTTP/1.1
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.impl.execchain.MainClientExec]Target auth state: UNCHALLENGED
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.impl.execchain.MainClientExec]Proxy auth state: UNCHALLENGED
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 >> POST /wq/user/register HTTP/1.1
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 >> Content-Length: 145
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 >> Content-Type: application/json
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 >> Content-Encoding: UTF-8
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 >> Host: 192.168.10.65
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 >> Connection: Keep-Alive
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_111)
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 >> Accept-Encoding: gzip,deflate
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "POST /wq/user/register HTTP/1.1[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "Content-Length: 145[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "Content-Encoding: UTF-8[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "Host: 192.168.10.65[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_111)[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "{[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"passWord":"123456",[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userEmail":"522029704@qq.com",[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userId":0,[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userName":"[0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe5][0xa7][0x93][0xe5][0x90][0x8d]1",[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userPhone":"15000619639",[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userSex":"[0xe7][0x94][0xb7]"[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 >> "}"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "HTTP/1.1 404 Not Found[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "Date: Thu, 14 Dec 2017 02:34:11 GMT[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "Server: Apache/2.4.27 (Unix) PHP/5.6.30[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "Content-Length: 214[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "Keep-Alive: timeout=5, max=100[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "Content-Type: text/html; charset=iso-8859-1[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "[\r][\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "<html><head>[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "<title>404 Not Found</title>[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "</head><body>[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "<h1>Not Found</h1>[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "<p>The requested URL /wq/user/register was not found on this server.</p>[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.wire]http-outgoing-0 << "</body></html>[\n]"
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 << HTTP/1.1 404 Not Found
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 << Date: Thu, 14 Dec 2017 02:34:11 GMT
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 << Server: Apache/2.4.27 (Unix) PHP/5.6.30
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 << Content-Length: 214
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 << Keep-Alive: timeout=5, max=100
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 << Connection: Keep-Alive
+ [DEBUG] [2017-12-14 10:34:11][org.apache.http.headers]http-outgoing-0 << Content-Type: text/html; charset=iso-8859-1
+ [DEBUG] [2017-12-14 10:34:12][org.apache.http.impl.execchain.MainClientExec]Connection can be kept alive for 5000 MILLISECONDS
+ [DEBUG] [2017-12-14 10:34:12][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.client.protocol.RequestAddCookies]CookieSpec selected: default
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.client.protocol.RequestAuthCache]Auth cache not set in the context
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.impl.conn.PoolingHttpClientConnectionManager]Connection request: [route: {}->http://192.168.10.65:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.impl.conn.PoolingHttpClientConnectionManager]Connection leased: [id: 0][route: {}->http://192.168.10.65:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.impl.execchain.MainClientExec]Opening connection {}->http://192.168.10.65:80
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator]Connecting to /192.168.10.65:80
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator]Connection established 192.168.10.65:50009<->192.168.10.65:80
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.impl.execchain.MainClientExec]Executing request POST /wq/user/register HTTP/1.1
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.impl.execchain.MainClientExec]Target auth state: UNCHALLENGED
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.impl.execchain.MainClientExec]Proxy auth state: UNCHALLENGED
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 >> POST /wq/user/register HTTP/1.1
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 >> Content-Length: 145
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 >> Content-Type: application/json
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 >> Content-Encoding: UTF-8
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 >> Host: 192.168.10.65
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 >> Connection: Keep-Alive
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_111)
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 >> Accept-Encoding: gzip,deflate
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "POST /wq/user/register HTTP/1.1[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "Content-Length: 145[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "Content-Encoding: UTF-8[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "Host: 192.168.10.65[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_111)[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "{[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"passWord":"123456",[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userEmail":"522029704@qq.com",[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userId":0,[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userName":"[0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe5][0xa7][0x93][0xe5][0x90][0x8d]1",[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userPhone":"15000619639",[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "[0x9]"userSex":"[0xe7][0x94][0xb7]"[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 >> "}"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "HTTP/1.1 404 Not Found[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "Date: Thu, 14 Dec 2017 02:35:11 GMT[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "Server: Apache/2.4.27 (Unix) PHP/5.6.30[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "Content-Length: 214[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "Keep-Alive: timeout=5, max=100[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "Content-Type: text/html; charset=iso-8859-1[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "[\r][\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "<html><head>[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "<title>404 Not Found</title>[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "</head><body>[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "<h1>Not Found</h1>[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "<p>The requested URL /wq/user/register was not found on this server.</p>[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.wire]http-outgoing-0 << "</body></html>[\n]"
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 << HTTP/1.1 404 Not Found
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 << Date: Thu, 14 Dec 2017 02:35:11 GMT
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 << Server: Apache/2.4.27 (Unix) PHP/5.6.30
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 << Content-Length: 214
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 << Keep-Alive: timeout=5, max=100
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 << Connection: Keep-Alive
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.headers]http-outgoing-0 << Content-Type: text/html; charset=iso-8859-1
+ [DEBUG] [2017-12-14 10:35:11][org.apache.http.impl.execchain.MainClientExec]Connection can be kept alive for 5000 MILLISECONDS
+ [DEBUG] [2017-12-14 10:35:11][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:38:06][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:41:26][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:42:52][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:46:00][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:53:25][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 10:59:21][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:00:26][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:05:13][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:05:41][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:07:21][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:07:27][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:09:06][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:14:23][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:15:38][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:15:59][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:18:47][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:25:19][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:25:26][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:26:47][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:30:20][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:30:52][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:32:18][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:38:58][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:41:26][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:43:35][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:44:27][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:52:52][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:53:21][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:53:31][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:54:14][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 11:54:16][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:29:12][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:29:19][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:36:24][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:37:30][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:42:37][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:43:02][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:43:06][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:51:21][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:53:25][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:55:04][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:58:05][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:58:22][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 13:59:59][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 14:06:16][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 14:08:00][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 14:10:37][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 14:11:09][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.impl.conn.BasicClientConnectionManager]Get connection for route {}->http://localhost:8080
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.impl.conn.DefaultClientConnectionOperator]Connecting to localhost:8080
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.client.protocol.RequestAddCookies]CookieSpec selected: default
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.client.protocol.RequestAuthCache]Auth cache not set in the context
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.client.protocol.RequestTargetAuthentication]Target auth state: UNCHALLENGED
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.client.protocol.RequestProxyAuthentication]Proxy auth state: UNCHALLENGED
+ [DEBUG] [2017-12-14 14:13:42][test.com.vivian.test.SSLClient]Attempt 1 to execute request
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.impl.conn.DefaultClientConnection]Sending request: POST /wq/user/searchUser HTTP/1.1
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.wire] >> "POST /wq/user/searchUser HTTP/1.1[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.wire] >> "Content-Length: 15[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.wire] >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.wire] >> "Host: localhost:8080[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.wire] >> "Connection: Keep-Alive[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.wire] >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_111)[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.wire] >> "[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.headers]>> POST /wq/user/searchUser HTTP/1.1
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.headers]>> Content-Length: 15
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.headers]>> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.headers]>> Host: localhost:8080
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.headers]>> Connection: Keep-Alive
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.headers]>> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_111)
+ [DEBUG] [2017-12-14 14:13:42][org.apache.http.wire] >> "username=mytest"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.wire] << "HTTP/1.1 200 [\r][\n]"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.wire] << "Content-Type: text/plain;charset=ISO-8859-1[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.wire] << "Content-Length: 40[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.wire] << "Date: Thu, 14 Dec 2017 06:13:43 GMT[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.wire] << "[\r][\n]"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.impl.conn.DefaultClientConnection]Receiving response: HTTP/1.1 200 
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.headers]<< HTTP/1.1 200 
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.headers]<< Content-Type: text/plain;charset=ISO-8859-1
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.headers]<< Content-Length: 40
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.headers]<< Date: Thu, 14 Dec 2017 06:13:43 GMT
+ [DEBUG] [2017-12-14 14:13:43][test.com.vivian.test.SSLClient]Connection can be kept alive indefinitely
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.wire] << "{[\n]"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.wire] << "[0x9]"code":10086,[\n]"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.wire] << "[0x9]"message":"????????"[\n]"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.wire] << "}"
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.impl.conn.BasicClientConnectionManager]Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@31dc339b
+ [DEBUG] [2017-12-14 14:13:43][org.apache.http.impl.conn.BasicClientConnectionManager]Connection can be kept alive indefinitely
+ [INFO] [2017-12-14 14:13:43][test.com.vivian.test.HttpClientUtil]返回结果{
+	"code":10086,
+	"message":"????????"
+}
+ [DEBUG] [2017-12-14 14:13:43][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2017-12-14 14:16:36][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-11 13:54:38][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-11 13:55:54][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-11 14:09:59][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-15 10:39:41][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-15 10:42:37][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-16 13:24:53][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:13:08][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:14:21][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:28:47][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:32:06][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:36:07][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:36:34][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:42:34][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:44:05][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:49:50][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:55:38][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:57:42][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 14:58:27][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 15:01:10][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 15:57:20][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 16:00:04][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 16:16:08][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 16:19:30][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 16:38:40][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 17:12:32][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-17 17:13:48][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-18 17:06:30][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-19 16:11:37][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-19 16:14:32][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-19 16:15:49][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-19 16:17:01][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-19 16:18:51][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-19 16:21:04][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-19 16:22:00][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-19 17:44:13][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-22 17:31:57][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-22 17:33:57][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-22 17:39:27][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-22 17:41:03][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-22 17:41:27][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-22 17:47:01][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-22 17:48:26][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-22 18:00:43][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-22 18:02:47][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-24 11:38:28][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-25 16:18:55][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-25 16:20:49][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-25 16:25:59][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-25 16:29:31][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-26 10:27:23][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-26 10:59:29][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-26 11:06:53][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-26 11:07:18][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-26 11:08:45][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-26 11:51:03][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-26 11:53:50][test.com.vivian.test.MybatisTest]this is Debug message
+ [DEBUG] [2018-01-26 11:54:06][test.com.vivian.test.MybatisTest]this is Debug message
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vivian.dao.HomeDaoI">
+
+
+    <sql id="live_columns">
+        liveBoardTitle,liveBoardContent,creatTime
+    </sql>
+    <!--获取所有热门话题-->
+    <select id="getHomeView"
+            useCache="false"
+            parameterType="String" resultType="com.vivian.sql.model.HomeBoardDetailModel">
+        SELECT *
+        FROM HomeBoardDetailModel
+
+    </select>
+
+
+    <!--插入一条最新热门话题-->
+    <insert id="insertHome" parameterType="com.vivian.sql.model.HomeBoardDetailModel">
+
+
+        <!-- mysql插入数据后，获取id -->
+        <selectKey keyProperty="homePostId" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID() as id
+        </selectKey>
+
+        insert into HomeBoardDetailModel(postTitle, postParentId, postAdmin, postCreateTime,postContent)
+        values( #{postTitle}, #{postParentId}, #{postAdmin},
+        #{postCreateTime},#{postContent})
+    </insert>
+
+
+    <!--更新热门话题讨论数量-->
+    <update id="updateHomeComment" parameterType="com.vivian.sql.model.HomeBoardDetailModel">
+        update HomeBoardDetailModel set
+        postCommentCount = #{postCommentCount}
+        where homePostId = #{homePostId}
+    </update>
+
+    <!--根据topicId查找相应的实体类-->
+    <select id="findTopicById"
+            useCache="false"
+            parameterType="int" resultType="com.vivian.sql.model.HomeBoardDetailModel">
+        SELECT
+        *
+        FROM HomeBoardDetailModel
+        WHERE
+        homePostId=#{homePostId}
+    </select>
+
+</mapper>
