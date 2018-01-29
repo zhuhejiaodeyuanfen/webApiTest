@@ -6,4 +6,52 @@
 
     <!--扫描service-->
     <context:component-scan base-package="com.vivian.service"/>
+
+
+
+
+
+    <context:component-scan base-package="com.vivian.service">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--<aop:aspectj-autoproxy proxy-target-class="true" />-->
+
+
+    <!--2.数据库连接池-->
+    <bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="dataSource">
+        <!--连接池属性-->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/apiUser?useUnicode=true&amp;characterEncoding=utf8"/>
+        <property name="user" value="root"/>
+        <property name="password" value="123456"/>
+        <!--c3p0连接池私有属性-->
+        <property name="maxPoolSize" value="30"/>
+        <property name="minPoolSize" value="10"/>
+        <!--关闭连接后不自动提交-->
+        <property name="autoCommitOnClose" value="false"/>
+        <!--连接超时时间-->
+        <property name="checkoutTimeout" value="10000"/>
+        <!--连接失败重试次数-->
+        <property name="acquireRetryAttempts" value="2"/>
+    </bean>
+
+    <!--配置sqlSessionFactory 并将数据源注入-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--指定要使用到到mybatis配置文件-->
+        <property name="configLocation" value="classpath:conf.xml"/>
+        <!--扫描entity包,使用别名-->
+        <property name="typeAliasesPackage" value="com.vivian"/>
+        <!--用于配置mapper映射xml-->
+        <property name="mapperLocations" value="classpath*:com/vivian/mapper/*.xml"/>
+    </bean>
+
+
+    <!-- 创建数据映射器-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.vivian.dao"/>
+    </bean>
+
 </beans>

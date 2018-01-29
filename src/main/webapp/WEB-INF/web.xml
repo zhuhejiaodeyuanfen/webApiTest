@@ -28,39 +28,21 @@
 
 
     <servlet>
-        <servlet-name>WelcomeServlet</servlet-name>
-        <servlet-class>com.vivian.WelcomeServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>WelcomeServlet</servlet-name>
-        <url-pattern>/test</url-pattern>
-    </servlet-mapping>
-
-
-    <servlet>
-        <servlet-name>springmvc4</servlet-name>
-        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <servlet-name>SpringMVC</servlet-name>
+        <servlet-class>
+            org.springframework.web.servlet.DispatcherServlet
+        </servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:config/spring/springmvc.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
+
     <servlet-mapping>
-        <servlet-name>springmvc4</servlet-name>
+        <servlet-name>SpringMVC</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-
-    <welcome-file-list>
-        <welcome-file>/index.jsp</welcome-file>
-    </welcome-file-list>
-
-
-
-
-
-
-
 
 
 </web-app>

@@ -7,17 +7,12 @@
             <!-- 配置数据库连接信息 -->
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/apiTest"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/apiUser"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>
         </environment>
     </environments>
 
-    <mappers>
-        <!-- 注册userMapper.xml文件，
-         userMapper.xml位于me.gacl.mapping这个包下，所以resource写成me/gacl/mapping/userMapper.xml-->
-        <mapper resource="mapping/userMapper.xml"/>
-    </mappers>
 
 </configuration>
